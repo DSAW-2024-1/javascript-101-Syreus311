@@ -50,7 +50,7 @@ function countVowels(str) {
 
     strArr.forEach((element) => {
         if (element.match("^[aeiouAEIOU]$")) {
-            count++;
+            contador++;
         }
     });
 
