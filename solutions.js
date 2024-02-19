@@ -46,7 +46,7 @@ function countVowels(str) {
     }
 
     const strArr = str.toString().split("");
-    let count = 0;
+    let contador = 0;
 
     strArr.forEach((element) => {
         if (element.match("^[aeiouAEIOU]$")) {
@@ -54,7 +54,7 @@ function countVowels(str) {
         }
     });
 
-    return count;
+    return contador;
 }
 
 // Check if a Number is Prime
